@@ -1,0 +1,9 @@
+<div class="View-Event">
+    <div class="Event-Head">{{event.name}}</div>
+    <div>Start Date:{{event.start_date | date}}</div>
+    <div>End Date:{{event.end_date | date}}</div>
+    <div>Event Location:{{event.location}}</div><br>
+    <div>Description:{{event.desc}}</div><br>
+    <button ng-click="editEvent()" class="btn btn-primary">Edit Event</button> &nbsp;&nbsp;
+    <button ng-click="deleteEvent()" class="btn btn-warning">Delete Event</button>
+</div>

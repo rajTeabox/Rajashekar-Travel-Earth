@@ -1,0 +1,20 @@
+<div class="form-group">
+    <label for="event">Event Name</label><br>
+    <input type="text" ng-model="newEvent.name" placeholder="Enter Event" name="myevent" id="event_name" class="form-control" required>
+</div>
+<div class="form-group">
+    <label for="date">Start Date</label><br>
+    <input type="date" ng-model="newEvent.start_date" required placeholder="Enter Start Date" class="form-control" id="Start_date">
+</div>
+<div class="form-group">
+    <label for="date">End Date</label><br>
+    <input type="date" ng-model="newEvent.end_date" required placeholder="Enter End Date" class="form-control" id="end_date">
+</div>
+<div class="form-group">
+    <label for="location">Location</label><br>
+    <input type="text" ng-model="newEvent.location" required placeholder="Enter Location" class="form-control" id="location">
+</div>
+<div class="form-group">
+    <label for="desc">Description</label><br>
+    <textarea  ng-model="newEvent.desc" placeholder="Enter Desc.." required class="form-control" id="desription"></textarea>
+</div>

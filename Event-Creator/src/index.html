@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="Event.Calendar.App">
+<head>
+     <title>Event Calendar</title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+     <meta name="description" content="Event Calendar App">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.20/angular-ui-router.js"></script>
+     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+     <div >
+          <div style="background: black;">
+          <div class="header" ng-controller="headerController">
+               <div class="col-sm-6 col-xs-6">
+                    <a href="#/!" ng-click="goToEventList()" class="anchor"><img src="assets/calendar_logo.png" width="40px"> &nbsp;Events</a>
+               </div>
+               <div class="col-xs-6 col-sm-6 create_event">
+
+                         <button class="create_btn" ng-click="createEvent()">
+                              Create Event
+                         </button>
+
+               </div>
+
+
+          </div>
+          </div>
+          <div ui-view></div>
+     </div>
+     <script type="text/javascript" src="App.js"></script>
+     <script type="text/javascript" src="EventsList/eventsList.js"></script>
+     <script type="text/javascript" src="CreateEvent/createEvent.js"></script>
+     <script type="text/javascript" src="EventDetailView/eventDetailView.js"></script>
+     <script type="text/javascript" src="EditEvent/editEvent.js"></script>
+
+</body>
+</html>
