@@ -21,7 +21,7 @@
             }
         }])
         .controller("CalendarAppController",function($scope,$http,$rootScope,$location){
-        $scope.header_information = "Events";
+        $scope.header_information = "EVENTS";
     })
 
     .controller("viewCtrl", function ($scope) {
