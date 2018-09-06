@@ -12,7 +12,7 @@ Keywords: HTML5,CSS3,BootStrap,Javascript,Angular Js(1.6.).
   <b><i>must and should open in local host</i></b>
   1.clone or download the project in our local.<br/>
   2.for instant opening - open the project in IDE like Intelij Idea or Webstrom etc..<br/>
-  3.In project we can see src folder, open index.html file.<br/>
+  3.In project we can see Event-Creator folder in that we can see src sub folder, open index.html file.<br/>
   4.And open in browser of instant local-host server.</br>
 
 </div>
