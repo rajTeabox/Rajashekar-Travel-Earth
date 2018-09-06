@@ -1,5 +1,5 @@
 # Rajashekar-Travel-Earth-
-Events Calendar App
+<b>Events Calendar App</b>
 Desc:The features of the project is to create the events, to view the events which we created, edit the events and delete the events.
 
 Mobile based web App:Single page web App (SPA),Responsive Across All devices (mobile friendly, ipad,desktop).
