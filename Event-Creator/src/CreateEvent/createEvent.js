@@ -26,8 +26,18 @@
             }
             $scope.newEvent.id = guid();
             $scope.AddToEvent = function () {
-                 listOfEvents.create($scope.newEvent);
-                 $location.path('/');
+                $scope.EnentNameVal=$('#event_name').val();
+                $scope.EnentStartVal=$('#Start_date').val();
+                $scope.EnentEndVal=$('#end_date').val();
+                $scope.EnentLocVal=$('#location').val();
+
+                if($scope.EnentNameVal == "" || $scope.EnentStartVal == "" || $scope.EnentEndVal == "" || $scope.EnentLocVal == ""){
+                    alert("please Enter the inputs");
+                }else{
+                    listOfEvents.create($scope.newEvent);
+                     $location.path('/');
+                }
+
 
             };
             

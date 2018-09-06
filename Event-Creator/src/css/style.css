@@ -10,13 +10,16 @@ body{
      width: 100%;
      font-size: 28px;
      background: black;
-     color: white;
+     color: whitSerch-componente;
 
      padding: 20px;
      text-transform: capitalize;
 }
 a{
      color: inherit;
+}
+.anchor{
+    color:white !important;
 }
 a:hover{
      color: inherit;
@@ -120,8 +123,9 @@ a:hover, a:focus, a:active {
     height:36px;
   }
   .Serch-component{
-    text-align:center;
-    margin-top:20px;
+    text-align:right;
+    margin:15px auto;
+    width:50%;
   }
   .btn-success{
     vertical-align:top;
@@ -133,6 +137,10 @@ a:hover, a:focus, a:active {
       border: 1px solid #ededed;
       background: #f6f6f5;
       padding: 30px;
+  }
+  .Back-Event{
+  width: 60%;
+  margin:15px auto;
   }
   .Event-Head{
     font-size:25px;
@@ -186,13 +194,22 @@ a:hover, a:focus, a:active {
      .event_tile {
          width: 80%;
          }
+         .Serch-component{
+         width:80%;
+         }
      .View-Event {
          width: 90%;
          height: 295px;
          }
+         .Back-Event{
+           width: 90%;
+           }
          .create-form {
              width: 80%;
              margin: auto;
+         }
+         .SearchInput{
+         border:1px solid #ededed;
          }
 }
 /*end mobile css*/
@@ -205,6 +222,9 @@ a:hover, a:focus, a:active {
         width: 500px;
         height: 100px;
         }
+        .Serch-component{
+        width: 500px;
+        }
         .text-wrap {
         position: absolute;
         top: 2%;
@@ -213,6 +233,9 @@ a:hover, a:focus, a:active {
         width: 90%;
         height: 260px;
         }
+        .Back-Event{
+          width: 90%;
+          }
         .SearchInput {
             height: 36px;
             border: 1px solid #ededed;

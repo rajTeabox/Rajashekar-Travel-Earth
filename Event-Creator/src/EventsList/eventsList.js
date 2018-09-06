@@ -9,11 +9,11 @@
           };
             var events = {};
             events.list = [
-                {id : 1,name : "event1",start_date : "Sep 22, 2018", end_date : "Sep 22, 2018",location : "bangalore",desc : "sdbf ges uiwdl aksj gbdseuik sjdfg heskjh","bgcolor": getRandomColor()},
-                {id : 2,name : "event2",start_date : "Sep 22, 2018", end_date : "Sep 22, 2018",location : "bangalore",desc : "sdbfgesuiw dlaksjg bdseuiksj dfgheskjh","bgcolor": getRandomColor()},
-                {id : 3,name : "event3",start_date : "Sep 22, 2018", end_date : "Sep 22, 2018",location : "bangalore",desc : "sdbfgesuiwd laksjgbd seuiksjdfgheskjh","bgcolor": getRandomColor()},
-                {id : 4,name : "event4",start_date : "Sep 22, 2018", end_date : "Sep 22, 2018",location : "bangalore",desc : "sdbfgesui wdlaksjgbdse uiksjdfgheskjh","bgcolor": getRandomColor()},
-                {id : 5,name : "event5",start_date : "Sep 22, 2018", end_date : "Sep 22, 2018",location : "bangalore",desc : "sdbfg esuiwd laksjgbd seuiksjd fgheskjh","bgcolor": getRandomColor()}
+                {id : 1,name : "event1",start_date : "Sep 22, 2018", end_date : "Sep 22, 2018",location : "bangalore",desc : "Come and join us for our weekly coffee morning.","bgcolor": getRandomColor()},
+                {id : 2,name : "event2",start_date : "Sep 24, 2018", end_date : "Sep 22, 2018",location : "bangalore",desc : "Come and join us for our weekly coffee morning.","bgcolor": getRandomColor()},
+                {id : 3,name : "event3",start_date : "Sep 24, 2018", end_date : "Sep 22, 2018",location : "bangalore",desc : "Come and join us for our weekly coffee morning.","bgcolor": getRandomColor()},
+                {id : 4,name : "event4",start_date : "Sep 25, 2018", end_date : "Sep 22, 2018",location : "bangalore",desc : "Come and join us for our weekly coffee morning.","bgcolor": getRandomColor()},
+                {id : 5,name : "event5",start_date : "Sep 26, 2018", end_date : "Sep 22, 2018",location : "bangalore",desc : "Come and join us for our weekly coffee morning.","bgcolor": getRandomColor()}
             ];
             events.create = function (event) {
                 events.list.push(event);
